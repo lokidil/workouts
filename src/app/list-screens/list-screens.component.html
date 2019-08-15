@@ -1,0 +1,10 @@
+<table>
+    <th>{{ScreenName}}</th>
+    <th>{{ScreenTitle}}</th>
+    <th>{{ScreenTime}}</th>
+        <tr *ngFor = 'let screen of screenList'>
+            <td>{{screen.screenName}}</td>
+            <td>{{screen.screenTitle}}</td>
+            <td>{{screen.screenTime}}</td>
+        </tr>
+</table>
